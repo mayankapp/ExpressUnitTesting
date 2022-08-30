@@ -16,7 +16,8 @@ const newData = () => {
 const getUser = (req, res) => {
     try {
         let data = {
-            list: "Hello",
+            name: "Mayank Tiwari",
+            age: 26,
         }
         res.status(200).send({ statusText: 'success', data });
     } catch (error) {
